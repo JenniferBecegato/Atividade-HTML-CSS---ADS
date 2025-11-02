@@ -1,0 +1,94 @@
+#Listas{
+    text-align: center;
+}
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul {
+    list-style-type: square;
+    color:navy;
+    font-weight: bold;
+    list-style-position: inside;
+    display: block;
+    text-align: left;
+    margin: 0 auto;/* Centraliza horizontalmente a lista */
+    width: fit-content; /* Ajusta a largura da lista ao seu conteúdo */
+}
+
+.lista_numero_romano {
+    list-style-type: lower-roman;
+    font-weight: normal;
+    color: #000;
+    list-style-position: inside; /* Move os marcadores para dentro do conteudo do conteúdo da lista */
+    display: block; /* permite que a lista seja tratada como um bloco facilitando a centralização e força a quebra de linha*/
+    text-align: left; /* Alinha o texto à esquerda */
+    margin: 0 auto 0 -8px;
+    width: fit-content;
+}
+.lista_sem_marcador {
+    list-style-type: none;
+    color: #000;
+    font-weight: normal;
+    list-style-position: inside;
+    display: block;
+    text-align: left;
+    margin: 0 auto 0 6px;
+    width: fit-content;
+}
+.linha_horizontal {
+    border: 2px solid black;
+    font-weight: bold;
+    margin: 25px auto 25px auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.linha_horizontal td {
+    text-align: center;
+    vertical-align: middle;
+}
+.estrela{
+   width: 15px;
+   height: 15px;
+   margin:0 auto 0 auto;
+   
+}
+h3{
+    margin: 0 auto 0 auto;
+}
+#tabela_informações{
+    margin: 0 auto 0 auto;
+    width: 100%;
+    max-width: 620px;
+    padding-left: 40px;
+    padding-right: 40px;
+}   
+#tabela_informações th {
+    margin: 0 auto 0 auto;
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: middle;
+}   
+.HTML, .CSS, .W3C{
+    background-color: #b0aea7;
+}
+.WebSemantica{
+    background-color: #a09ef0;
+}
+#infoalunos{
+   margin: 15px auto 0 auto;
+   width: 620px;
+   padding-left: 40px;
+   padding-right: 40px;
+   text-align: left;
+}
+
+
+.Aluno, .RA{
+    background-color: aqua;
+    vertical-align: middle;
+    font-size:20px;
+}
